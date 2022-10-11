@@ -15,7 +15,7 @@ def time_diff():
 
 window=Tk()
 window.minsize(width=200,height=100)
-window.title("Ile dzisiaj przepracowałem")
+window.title("Ile godzin dzisiaj przepracowałem")
 window.config(padx=30, pady=50)
 
 start=Entry(width=10)
