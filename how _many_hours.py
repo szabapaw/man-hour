@@ -37,7 +37,7 @@ Label3=Label(text="Przepracowany czas w dniu dzisiejszym: ")
 Label3.grid(column=0,row=3)
 
 Label4 = Label(text='')
-Label4.grid(column=1, row=3)
+Label4.grid(column=1, row=3, columnspan=2)
 
 button=Button(text='Ile dzisiaj przepracowałeś', command=time_diff)
 button.grid(column=2, row=4)
